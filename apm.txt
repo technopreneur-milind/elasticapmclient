@@ -1,0 +1,7 @@
+java -javaagent:/path/to/elastic-apm-agent-<version>.jar \
+-Delastic.apm.service_name=my-service-name \
+-Delastic.apm.secret_token=nFb9ARAhlzRhm9cL5O \
+-Delastic.apm.server_url=https://7aa0432ff5d84eb6a6f8210479f599f8.apm.ap-south-1.aws.elastic-cloud.com:443 \
+-Delastic.apm.environment=my-environment \
+-Delastic.apm.application_packages=org.example \
+-jar my-service-name.jar
